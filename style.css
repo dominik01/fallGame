@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Russo+One&subset=latin,latin-ext);
+
+#container {
+	text-align: center;	
+	background-color: #694F3E;
+	border: 4px double white;
+	color: #ccc;
+	width:700px;
+	margin: -8px auto;
+	margin-bottom: -17px;
+}
+
+body{
+background-color:black;
+}
+
+#game,#popis {	
+	position: relative;
+	
+	height: auto;
+	margin: 0 auto;
+}
+
+
+#plocha{
+	padding: 0;
+	margin-top:1em;
+	border: 1px solid black;
+}
+
+.intro{
+	max-width:50em;
+	font-size: 16px;
+	color: white;
+	font-style:italic;
+	font-family: 'Calibri', sans-serif;
+	text-align:center;
+	margin: 0 auto;
+	margin-bottom: 2em;
+}
+
+#start{
+	
+	font-size:36px;
+	font-family: 'Russo One', sans-serif;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color: white;
+}
+
+.level{
+	
+	font-size:14px;
+	font-family: 'Russo One', sans-serif;
+	margin-top: 1em;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	background-color: white;
+	cursor:pointer;
+}
+
+.uloha {
+	font-size:20px;
+}
+
+h1{
+font-size:48px;
+color:#73DBD0;
+font-family: 'Russo One', sans-serif;
+font-style:italic;
+margin:0;	
+	
+}
+
+#start:hover{
+	background-color:#E2FF9F;
+	cursor:pointer;
+}
+
+
+

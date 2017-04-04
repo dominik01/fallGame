@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hra</title>
+	<link rel="stylesheet" href="style.css">
+<script src="jquery.js"></script>
+<script src="jquery-ui-1.10.3.custom.min.js"></script>
+<script src="hra.js"></script>
+<script src="alerts/dist/sweetalert.min.js"></script> 
+<link rel="stylesheet" type="text/css" href="alerts/dist/sweetalert.css">
+                                        
+</head>
+<body>
+
+
+<div id="container">
+<h1>Pád</h1>
+<section id="popis">
+<p class="intro">
+V bludisku sa pohybuje červená guľôčka. Dokáže sa gúľať, meniť smer svojho pohybu a nevadí jej pád. Keď sa položí do poschodového labyrintu, začne sa gúľať vpravo. Vždy, keď spadne nižšie alebo narazí na stenu, zmení smer svojho pohybu.
+<br><br>
+<strong class="uloha">Tvojou úlohou je vybrať, priehradku do ktorej padne červená gulička</strong>
+</p>
+<button id ="start" onclick="zapni()">Štart</button>
+
+<br>
+<button class="level" onclick="c_level(1)">Level 1</button>
+<button class="level" id="lvl2" onclick="c_level(2)" disabled>Level 2</button>
+<button class="level"  id="lvl3" onclick="c_level(3)" disabled>Level 3</button>
+<br>
+
+</section>
+
+<section id="game">
+ <canvas id="plocha" width="600" height="360"></canvas>     
+</section>
+	
+	<footer>
+		<p>vytvoril:Dominik Knechta </p>
+	</footer>
+</div>
+</body>
+</html>
